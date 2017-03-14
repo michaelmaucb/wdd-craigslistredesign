@@ -1,0 +1,149 @@
+<html>
+<head>
+	<title>List View</title>
+	<style>
+	@import url('https://fonts.google.com/specimen/Roboto?selection.family=Roboto');
+	</style>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+    </style>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+<body>
+	<div id="container">
+		<div id="header">navbar</div>
+          <form>
+          Min price:
+          <input type="text" name="firstname"> &emsp; &emsp;
+          Max price:
+          <input type="text" name="firstname"><br><br>
+          Zip code:
+          <input type="text" name="lastname"> &emsp; &emsp;
+          Miles from zip:
+          <input type="text" name="lastname"><br>
+          </form>
+    </div>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Other search preferences</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Search titles only</a>
+                <a href="#">Has image</a>
+                <a href="#">Posted today</a>
+                <a href="#">Bundle duplicates</a>
+                <a href="#">Include nearby areas</a>
+            </div>
+        </div>
+		<div class="list-container">
+            <div class="list-title"> Results</div>
+			<div class="list-content">
+   				<div class="list-item">
+                    <div class="details"> 
+                        <div id = "name"> Pencil Factory Flats </div>
+                        <div id = "location"> 349 Decatur Street SE, Atlanta, GA, 30312 </div>
+                    </div>
+                    <div id="thumbnail"> <img src="assets/img/house.jpg"/>
+                    </div>
+                    <div id = "price"> $3000 </div>
+                    <div id = "description"> 1min to station 20min to central London </div>
+                    <div id = "size"> 3 beds | 3 baths | 3000 sqft</div>
+                    <div id = "icon"> 
+                        <img src="assets/img/dog.jpg"/>
+                        <img src="assets/img/smoking.jpg"/>
+                        <img src="assets/img/laundry.jpg"/>
+                        <img src="assets/img/parking.jpg"/>
+                    </div>
+                </div>
+                
+                <div class="list-item">
+                    <div class="details"> 
+                        <div id = "name"> The Overture </div>
+                        <div id = "location"> 1812 University Ave, Berkeley, CA 94703 </div>
+                    </div>
+                    <div id="thumbnail"> <img src="assets/img/house.jpg" width="250" height="250" align="left"/>
+                    </div>
+                    <div id = "price"> $2800 </div>
+                    <div id = "description"> Comfortable base to explore People's Park </div>
+                    <div id = "size"> 2 beds | 1 bath, 2500 sqft</div>
+                    <div id = "icon"> 
+                        <img src="assets/img/dog.jpg"/>
+                        <img src="assets/img/smoking.jpg"/>
+                        <img src="assets/img/laundry.jpg"/>
+                        <img src="assets/img/parking.jpg"/>
+                    </div>
+                </div>
+                
+                <div class="list-item">
+                    <div class="details"> 
+                        <div id = "name"> Varsity Berkeley </div>
+                        <div id = "location"> 2024 Durant Ave, Berkeley, CA 94704 </div>
+                    </div>
+                    <div id="thumbnail"> <img src="assets/img/house.jpg" width="250" height="250" align="left"/>
+                    </div>
+                    <div id = "price"> $4500 </div>
+                    <div id = "description">Beautiful 7BR Family Home</div>
+                    <div id = "size"> 7 beds | 9 baths | 8000 sqft</div>
+                    <div id = "icon"> 
+                        <img src="assets/img/dog.jpg"/>
+                        <img src="assets/img/smoking.jpg"/>
+                        <img src="assets/img/laundry.jpg"/>
+                        <img src="assets/img/parking.jpg"/>
+                    </div>
+                </div>
+                
+                <div class="list-item">
+                    <div class="details"> 
+                        <div id = "name"> Bachenheimer </div>
+                        <div id = "location"> 2119 University Ave, Berkeley, CA 94704 </div>
+                    </div>
+                    <div id="thumbnail"> <img src="assets/img/house.jpg" width="250" height="250" align="left"/>
+                    </div>
+                    <div id = "price"> $2342 </div>
+                    <div id = "description">Large Balcony Double Bedroom in Dollis Hill!</div>
+                    <div id = "size"> 5 beds | 3 baths | 6000 sqft</div>
+                    <div id = "icon"> 
+                        <img src="assets/img/dog.jpg"/>
+                        <img src="assets/img/smoking.jpg"/>
+                        <img src="assets/img/laundry.jpg"/>
+                        <img src="assets/img/parking.jpg"/>
+                    </div>
+                </div>
+               
+                <div class="list-item">
+                    <div class="details"> 
+                        <div id = "name"> Hillside Village </div>
+                        <div id = "location"> 1797-1801 Shattuck Ave, Berkeley, CA 94709 </div>
+                    </div>
+                    <div id="thumbnail"> <img src="assets/img/house.jpg" width="250" height="250" align="left"/>
+                    </div>
+                    <div id = "price"> $6543 </div>
+                    <div id = "description">Maisonette With Small Balcony *8*</div>
+                    <div id = "size"> 5 beds | 4 baths | 6000 sqft </div>
+                    <div id = "icon"> 
+                        <img src="assets/img/dog.jpg"/>
+                        <img src="assets/img/smoking.jpg"/>
+                        <img src="assets/img/laundry.jpg"/>
+                        <img src="assets/img/parking.jpg"/>
+                    </div>
+                </div>
+                
+                <div class="list-item">
+                    <div class="details"> 
+                        <div id = "name"> Avalon Berkeley </div>
+                        <div id = "location"> 3651 Addison St, Berkeley, CA 94710 </div>
+                    </div>
+                    <div id="thumbnail"> <img src="assets/img/house.jpg" width="250" height="250" align="left"/>
+                    </div>
+                    <div id = "price"> $6533 </div>
+                    <div id = "description">Cute&Cheap Room in Central London</div>
+                    <div id = "size"> 4 beds | 3 baths | 5000 sqft </div>
+                    <div id = "icon"> 
+                        <img src="assets/img/dog.jpg"/>
+                        <img src="assets/img/smoking.jpg"/>
+                        <img src="assets/img/laundry.jpg"/>
+                        <img src="assets/img/parking.jpg"/>
+                    </div>
+                </div>
+            </div>
+		</div>
+</body>
+</html>
