@@ -1,0 +1,186 @@
+/*font-family: 'Merriweather Sans', sans-serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+	margin: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+nav {
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.top-bar {
+	background: #77dd88;
+	width: 100%;
+	position: fixed;
+	color: white;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 18px 0px;
+
+}
+
+.search-bar input[type="text"] {
+    font-family: 'Merriweather Sans', sans-serif;
+    width: 300px;
+    height: 24px;
+    border: none;
+}
+
+.logo {
+	position: absolute;
+	left: 10px;
+	top: 12px;
+	font-size: 24px;
+}
+
+.location {
+	float: right;
+}
+
+ul.search-bar {
+    position: absolute;
+    left: 130px;
+    bottom: 14px;
+}
+
+.background-img {
+	background-color: black;
+	height: 100%;
+	width: 100%;
+}
+
+#button-holder {
+	float:right;
+}
+
+li.menu-item {
+	float: right;
+}
+
+li.icon {
+	float: right;
+	display: inline-block;
+}
+
+#search-button {
+    height: 26px;
+}
+
+li.location-item {
+    float: right;
+}
+
+.change-location input[type="text"] {
+    font-family: 'Merriweather Sans', sans-serif;
+    width: 150px;
+    height: 24px;
+    border: none;
+}
+
+.sub-menu {
+	background: #77dd88;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: absolute;
+	left: 160px;
+	top: 20px;
+	visibility: hidden;
+
+	}
+
+.sub-item:hover .sub-menu {
+	visibility: visible;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.img-container {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+
+.img-container {
+	position: fixed;
+	top: -18px;
+	height: 100%;
+	width: 100%;
+}
+
+.content-container {
+	/*background:  #77dd88;*/
+	font-family: 'Roboto', sans-serif;
+	border-radius: 50%;
+	position: relative;
+	color: white;
+	top: 50%;
+	left: 120px;
+	transform: translateY(-50%);
+	/*width: 250px;
+	/*height: 250px;*/
+}
+
+.title {
+	font-size: 26px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.description {
+	font-size: 18px;
+}
+
+.address {
+	font-size: 14px;
+	font-style: italic;
+}
+
+button {
+	background: #77dd88;
+	border: none;
+	color: white;
+}
+
+.bottom-bar {
+	margin: 0 auto;
+}
+
+
+.footer {
+	color: white;
+	position: absolute;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 18px 0px;
+	background: #77dd88;
+	width: 100%;
+}
+
+li.footer-item {
+	float: left;
+	margin-right: 100px;
+	margin-left: 50px;
+}
