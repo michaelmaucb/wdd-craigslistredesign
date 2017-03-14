@@ -1,0 +1,171 @@
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+
+    text-align: center;
+}
+
+p {
+    line-height: 125%;
+}
+
+#container {
+    width: 1000px;
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+
+#slidephoto {
+    width: 75%;
+    margin: 10px;
+    height: 425px;
+
+}
+
+#slidephoto:hover {
+    opacity: 0.5;
+}
+
+#title {
+    background: #a0e7ac;
+    padding: 5px 10px 5px 10px;
+    border-radius: 25px;
+
+;
+}
+
+#leftarrow {
+    width: 50px;
+}
+
+#leftarrow:hover {
+    opacity: 0.5;
+}
+
+#rightarrow {
+    width: 50px;
+}
+
+#rightarrow:hover {
+    opacity: 0.5;
+}
+
+.imagecontainer {
+    float: left;
+}
+
+#description {
+    text-align: left;
+    margin: 10px 0px 10px 0px;
+}
+
+.divider {
+    background: lightgray;
+    width: 80%;
+    height: 2px;
+    margin: 40px auto 30px auto;
+    opacity: 0.5;
+}
+
+h2 {
+    /*font-family: 'Roboto', sans-serif;*/
+    /*text-align: left;*/
+}
+
+.feature {
+    float: left;
+}
+
+.feature-box {
+    border: 10px;
+}
+.feature-box:hover {
+    opacity: 0.5;
+}
+
+#allfeatures {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.feature-box {
+    width: 70px;
+    height: 30px;
+    background: #a0e7ac;
+    padding: 15px 25px 30px 25px;
+    border-radius: 25%;
+    /*border: 3px solid #857c78;*/
+    display: inline-block;
+
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+#map {
+    width: 70%;
+    border-radius: 10%;
+    /*border: 1px solid #a0e7ac;*/
+    padding:1px;
+    border:2px solid #a0e7ac;
+}
+
+#map:hover {
+    opacity: 0.5;
+}
+
+
+.review-container {
+    float: left;
+}
+
+
+.profilepic {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profilepic:hover {
+    opacity: 0.5;
+}
+
+.stars {
+    width: 100px;
+    align: left;
+}
+
+
+.left {
+    width: 50px;
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+}
+.right {
+    margin-left: 130px;
+    height: 150px;
+    text-align: left;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.button {
+    background-color: #77dd88;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    opacity: 0.5;
+
+}
