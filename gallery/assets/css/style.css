@@ -2,8 +2,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;/* margin: 0 auto; */
-text-align: center;
-background: #a0e7ac;
+    text-align: center;
+    background: #a0e7ac;
 }
 
 #container {
@@ -13,6 +13,114 @@ background: #a0e7ac;
     font-style: bolder;
     /* margin: 0 auto; */
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.top-bar {
+    font-family: 'Merriweather Sans', sans-serif;
+    background: #77dd88;
+    width: 100%;
+    position: fixed;
+    color: white;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 18px 0px;
+
+}
+
+.search-bar input[type="text"] {
+    font-family: 'Merriweather Sans', sans-serif;
+    width: 300px;
+    height: 24px;
+    border: none;
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    font-size: 24px;
+}
+
+.location {
+    float: right;
+}
+
+ul.search-bar {
+    position: absolute;
+    left: 130px;
+    bottom: 14px;
+}
+
+.background-img {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+#button-holder {
+    float:right;
+}
+
+li.menu-item {
+    float: right;
+}
+
+li.icon {
+    float: right;
+    display: inline-block;
+}
+
+#search-button {
+    height: 26px;
+}
+
+li.location-item {
+    float: right;
+}
+
+.change-location input[type="text"] {
+    font-family: 'Merriweather Sans', sans-serif;
+    width: 150px;
+    height: 24px;
+    border: none;
+}
+
+.sub-menu {
+    background: #77dd88;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    left: 160px;
+    top: 20px;
+    visibility: hidden;
+
+    }
+
+.sub-item:hover .sub-menu {
+    visibility: visible;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 
 #desc {
     float: left;
