@@ -1,15 +1,31 @@
 <html>
 <head>
 	<title>Gallery View</title>
-  <style>
-  @import url('https://fonts.google.com/specimen/Roboto?selection.family=Roboto');
-  </style>
-  <style>
-  @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
-  </style>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,500" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 <body>
+<div class="top-bar">
+    <nav>
+      <ul class="menu">
+        <li class="logo">Craigslist</li>
+        <li class="search-bar-item">
+          <ul class="search-bar">
+            <input type="text" name="search" placeholder=" Search...">
+          <span id="button-holder">
+            <img id="search-button" src="assets/search.svg"/>
+          </span>
+          </ul>
+        </li>
+        <li class="location-item">
+          <ul class="change-location">
+            <input type="text" name="location" placeholder=" Change location...">
+          </ul>
+        <li class="menu-item">Sign Up | Login</li>
+      </ul>
+    </nav>
+  </div> 
 	<div id="container">
 		<div id="header">navbar</div><br>
       <form>
